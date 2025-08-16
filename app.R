@@ -3485,8 +3485,8 @@ ui <- fluidPage(
   # Header
   div(class = "spotify-header",
       div(class = "header-content",
-          h1(class = "main-title", "UK Degree Matchmaker v7"),
-          p(class = "main-subtitle", "Match with your perfect university degrees based on grades, interests, and location!")
+          h1(class = "main-title", "UK Degree Matchmaker v9"),
+          p(class = "main-subtitle", "Match with your perfect Russell Group university degrees based on grades, interests, and location!")
       )
   ),
   
@@ -3744,7 +3744,7 @@ ui <- fluidPage(
                       div(class = "ranking-icon", "🌍"),
                       div(style = "flex: 1;",
                           div(class = "ranking-title", "QS World Ranking"),
-                          div(class = "ranking-explanation", "Global university ranking based on academic reputation, employer reputation, and research excellence")
+                          div(class = "ranking-explanation", "Global university ranking based on academic reputation, employer reputation, and research excellence. This is done per university, not per degree.")
                       )
                   ),
                   div(class = "ranking-main-metric",
@@ -3777,7 +3777,7 @@ ui <- fluidPage(
                       div(class = "ranking-icon tef-icon", "🏆"),
                       div(style = "flex: 1;",
                           div(class = "ranking-title", "TEF Rating"),
-                          div(class = "ranking-explanation", "UK government assessment of teaching quality, student satisfaction, and graduate employment outcomes")
+                          div(class = "ranking-explanation", "UK government assessment of teaching quality, student satisfaction, and graduate employment outcomes.This is done per university, not per degree.")
                       )
                   ),
                   div(class = "ranking-main-metric",
